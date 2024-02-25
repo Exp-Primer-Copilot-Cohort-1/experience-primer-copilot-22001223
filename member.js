@@ -4,5 +4,6 @@ function skillsMember() {
     age: 30,
     skills: ['HTML', 'CSS', 'JS'],
   };
-  return member.skills;
+
+  return member.skills; // ['HTML', 'CSS', 'JS']
 }
